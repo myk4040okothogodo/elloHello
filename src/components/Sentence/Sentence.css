@@ -1,0 +1,9 @@
+.book__word{
+    color:"black";
+    cursor:pointer;
+}
+
+.book__word:hover{
+    color: var(--color-golden);
+
+}

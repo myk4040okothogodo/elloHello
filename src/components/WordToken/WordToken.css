@@ -1,0 +1,8 @@
+.word_styling {
+    color: "black";
+}
+
+
+.word_styling p:hover {
+  color: var(--color-gold)
+}

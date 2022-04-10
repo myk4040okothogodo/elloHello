@@ -1,0 +1,21 @@
+import React, {useState} from 'react';
+
+import '/WordToken.css';
+
+const WordToken = ({ value, position}) => {
+
+
+  const [clicked ,setClicked] = useState(false);  
+  const handleClick=(value) => {
+      setclicked(true);
+      
+  }
+  return (
+    <div className= "book_wordtoken">
+      <i className="p__cormorant" onClick={handleClick(value)}>{value}</i>
+    </div>
+
+    )
+}
+
+export default WordToken;
